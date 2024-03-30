@@ -3,7 +3,7 @@ import getConnection from "../database/database.js";
 import jwt from "jsonwebtoken";
 import config from "../config.js";
 
-const table = "Users";
+const table = "users";
 
 //CRUD
 
