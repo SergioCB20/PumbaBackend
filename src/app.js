@@ -20,7 +20,7 @@ app.use(express.json())
 
 //Cuando acceda a la ruta raiz, va a manejar la request y la response mediante un callback
 app.get("/", (req,res)=>{
-    res.end("<h1>El servidor esta funcionando!</h1>")
+    res.end("<h1>El servidor esta funcionando!!</h1>")
 })
 
 app.use("/users",userRoutes);
